@@ -1,0 +1,41 @@
+.bg-green{
+	background-color: #008A7D;
+	height: 4em;
+	width: 100%;
+}
+.material-icons{
+	color: #616161;
+}
+.bg-img{
+	background-image: url("../image/chat-panel-bg.png");
+	background-size: cover;
+	width: 100%;
+}
+.div{
+	margin: 0px;
+	padding: 0px;
+}
+.collection .collection-item.avatar {
+    min-height: 60px;
+    padding-left: 60px;
+    position: relative;
+}
+.input-field input[type=search] ~ .material-icons {
+    margin-right: 8em;
+    top: 0;
+    right: 1rem;
+    color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .3s color;
+}
+.scroll{
+	height: 600px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+	background-image: url("../image/chat-panel-bg.png");
+	background-size: cover;
+	width: 100%;
+}
